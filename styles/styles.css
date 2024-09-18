@@ -16,6 +16,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
 .nav-title {
   color: #181818;
@@ -36,4 +37,42 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+}
+/* header related styles */
+.header {
+  background-color: #fff8f3;
+  padding-left: 50px;
+}
+.banner {
+  display: flex;
+  align-items: center;
+  background-image: url("../styles/images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
+}
+.banner-des {
+  margin-bottom: 5px;
+}
+.bnner-btn {
+  margin-top: 20px;
+  padding-top: 20px;
+  margin-right: 20px;
+}
+.banner-gretting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+.banner-title {
+  margin-top: 5px;
+  font-size: 85px;
+  font-weight: 700;
+}
+.profile-pic {
+  width: 500px;
+  padding-right: 60px;
 }
